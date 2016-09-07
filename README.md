@@ -1,0 +1,1 @@
+# redgo_vimrc
