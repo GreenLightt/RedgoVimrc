@@ -45,3 +45,9 @@ let javascript_enable_domhtmlcss = 1
 " 文件树形目录
 """"""""""""""""""""""""""""""
 Bundle 'scrooloose/nerdtree'
+
+""""""""""""""""""""""""""""""
+" 项目内搜索Ag
+""""""""""""""""""""""""""""""
+Bundle 'rking/ag.vim'
+
