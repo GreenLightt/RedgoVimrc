@@ -1,6 +1,10 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" 设置行号和相对行号
+set number
+set relativenumber
+
 " Sets how many lines of history VIM has to remember
 " 使用:history查看历史命令
 set history=100
