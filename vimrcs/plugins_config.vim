@@ -57,14 +57,26 @@ Bundle 'rking/ag.vim'
 """"""""""""""""""""""""""""""
 Bundle 'vim-airline/vim-airline'
 Bundle 'vim-airline/vim-airline-themes'
-let g:airline_powerline_fonts = 1
 set laststatus=2
 set ttimeoutlen=10
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#hunks#enabled=0
+let g:airline#extensions#branch#enabled=1
 
 """"""""""""""""""""""""""""""
-" 大纲导航
+" 状态条加强 显示git分支
+""""""""""""""""""""""""""""""
+Bundle 'tpope/vim-fugitive'
+
+""""""""""""""""""""""""""""""
+" 适合c++的大纲导航
 """"""""""""""""""""""""""""""
 Bundle 'majutsushi/tagbar'
 nnoremap <F9> :exe 'TagbarToggle'<CR>
 let g:tagbar_width=30    " 窗口宽度
+
+""""""""""""""""""""""""""""""
+" 有助于js 自动补全
+""""""""""""""""""""""""""""""
+Bundle 'ternjs/tern_for_vim'
 
