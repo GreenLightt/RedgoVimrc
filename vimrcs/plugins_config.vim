@@ -45,9 +45,17 @@ let javascript_enable_domhtmlcss = 1
 " 文件树形目录
 """"""""""""""""""""""""""""""
 Bundle 'scrooloose/nerdtree'
+nnoremap <F10> :exe 'NERDTreeToggle'<CR>
 
 """"""""""""""""""""""""""""""
 " 项目内搜索Ag
 """"""""""""""""""""""""""""""
 Bundle 'rking/ag.vim'
+
+""""""""""""""""""""""""""""""
+" 状态条加强
+""""""""""""""""""""""""""""""
+Bundle 'vim-airline/vim-airline'
+Bundle 'vim-airline/vim-airline-themes'
+let g:airline_powerline_fonts = 1
 
