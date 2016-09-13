@@ -79,4 +79,6 @@ let g:tagbar_width=30    " 窗口宽度
 " 有助于js 自动补全
 """"""""""""""""""""""""""""""
 Bundle 'ternjs/tern_for_vim'
-
+let tern_show_signature_in_pum = 1
+let tern_show_argument_hints = 'on_hold'
+autocmd FileType javascript setlocal omnifunc=tern#Complete
