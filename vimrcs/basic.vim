@@ -22,6 +22,8 @@ set autoread
 let mapleader = ","
 let g:mapleader = ","
 
+" set split line
+set cc=90
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
