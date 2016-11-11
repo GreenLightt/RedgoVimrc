@@ -140,6 +140,7 @@ set smarttab
 " shiftwidth => 程序中自动缩进所使用的空白长度, tabstop => 定义tab所等同的空格长度
 set shiftwidth=4
 set tabstop=4
+set softtabstop=4
 
 " Linebreak on 500 characters
 set linebreak
