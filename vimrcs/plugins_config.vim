@@ -90,3 +90,8 @@ autocmd FileType javascript setlocal omnifunc=tern#Complete
 Bundle 'mustache/mustache'
 Bundle 'mustache/vim-mustache-handlebars'
 au BufNewFile,BufRead *.mustache set ft=mustache
+
+""""""""""""""""""""""""""""""
+" nerdtree树形目录 
+""""""""""""""""""""""""""""""
+"Bundle 'scrooloose/nerdtree'
