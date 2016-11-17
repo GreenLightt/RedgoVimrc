@@ -1,12 +1,12 @@
 """"""""""""""""""""""""""""""
-" => Load pathogen paths 
+" => Load pathogen paths
 "    解决每一个插件安装后文件分散到多个目录不好管理
 """"""""""""""""""""""""""""""
 call pathogen#infect('~/redgo_vimrc/bundle/{}')
 call pathogen#helptags()
 
 """"""""""""""""""""""""""""""
-" => Load bundle paths 
+" => Load bundle paths
 "   解决自动搜索及下载插件
 """"""""""""""""""""""""""""""
 set rtp+=~/redgo_vimrc/bundle/Vundle.vim
@@ -15,7 +15,7 @@ Bundle 'gmarik/vundle'
 
 
 """"""""""""""""""""""""""""""
-" => Load emmet paths 
+" => Load emmet paths
 " 快速输入html标签
 """"""""""""""""""""""""""""""
 Bundle 'mattn/emmet-vim'
@@ -85,13 +85,13 @@ autocmd FileType javascript setlocal omnifunc=tern#Complete
 
 
 """"""""""""""""""""""""""""""
-" mustache文件类型扩展 
+" mustache文件类型扩展
 """"""""""""""""""""""""""""""
 Bundle 'mustache/mustache'
 Bundle 'mustache/vim-mustache-handlebars'
 au BufNewFile,BufRead *.mustache set ft=mustache
 
 """"""""""""""""""""""""""""""
-" nerdtree树形目录 
+" nerdtree树形目录
 """"""""""""""""""""""""""""""
 "Bundle 'scrooloose/nerdtree'

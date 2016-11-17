@@ -52,7 +52,7 @@ set backspace=eol,start,indent
 " 搜索忽视大小写
 set ignorecase
 
-" When searching try to be smart about cases 
+" When searching try to be smart about cases
 " 搜索的时候至少包含一个大写字母时才对大小写敏感
 set smartcase
 
@@ -62,11 +62,11 @@ set hlsearch
 
 " Makes search act like search in modern browsers
 " 加强式寻找功能,在键入 patern 时会立即反应移动至目前键入之 patern 上
-set incsearch 
+set incsearch
 
 " Don't redraw while executing macros (good performance config)
 " 当运行宏时，不重绘
-set lazyredraw 
+set lazyredraw
 
 " For regular expressions turn magic on
 " 支持正则搜索
@@ -74,7 +74,7 @@ set magic
 
 " Show matching brackets when text indicator is over them
 " 设置匹配模式，类似当输入一个左括号时会匹配相应的那个右括号
-set showmatch 
+set showmatch
 
 " Add a bit extra margin to the left
 " 设置折叠栏的宽度
@@ -91,7 +91,7 @@ set tm=500
 " => Colors and Fonts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Enable syntax highlighting
-syntax enable 
+syntax enable
 
 try
     colorscheme desert
