@@ -1,14 +1,14 @@
-cd ~/redgo_vimrc
+cd ~/RedgoVimrc
 
-echo 'set runtimepath+=~/redgo_vimrc
+echo 'set runtimepath+=~/RedgoVimrc
 
-source ~/redgo_vimrc/vimrcs/basic.vim
-source ~/redgo_vimrc/vimrcs/filetypes.vim
-source ~/redgo_vimrc/vimrcs/plugins_config.vim
-source ~/redgo_vimrc/vimrcs/extended.vim
+source ~/RedgoVimrc/vimrcs/basic.vim
+source ~/RedgoVimrc/vimrcs/filetypes.vim
+source ~/RedgoVimrc/vimrcs/plugins_config.vim
+source ~/RedgoVimrc/vimrcs/extended.vim
 
 try
-source ~/redgo_vimrc/my_configs.vim
+source ~/RedgoVimrc/my_configs.vim
 catch
 endtry' > ~/.vimrc
 
