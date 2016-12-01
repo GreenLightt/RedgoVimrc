@@ -1,15 +1,16 @@
-cd ~/RedgoVimrc
+filepath=$(cd "$(dirname "$0")"; pwd)
+cd $filepath
 
-echo 'set runtimepath+=~/RedgoVimrc
+echo "set runtimepath+=$filepath
 
-source ~/RedgoVimrc/vimrcs/basic.vim
-source ~/RedgoVimrc/vimrcs/filetypes.vim
-source ~/RedgoVimrc/vimrcs/plugins_config.vim
-source ~/RedgoVimrc/vimrcs/extended.vim
+source ${filepath}/vimrcs/basic.vim
+source ${filepath}/vimrcs/filetypes.vim
+source ${filepath}/vimrcs/plugins_config.vim
+source ${filepath}/vimrcs/extended.vim
 
 try
-source ~/RedgoVimrc/my_configs.vim
+source ${filepath}/my_configs.vim
 catch
-endtry' > ~/.vimrc
+endtry" >> ~/.vimrc
 
 echo "Installed the Ultimate Vim configuration successfully! Enjoy :-)"
