@@ -1,15 +1,19 @@
+let root_path = expand('%:p:h:h')
+let bundle_path = root_path . '/bundle'
+
 """"""""""""""""""""""""""""""
 " => Load pathogen paths
 "    解决每一个插件安装后文件分散到多个目录不好管理
 """"""""""""""""""""""""""""""
-call pathogen#infect("/root/redgovimrc/bundle/{}")
+call pathogen#infect(bundle_path . "/{}")
 call pathogen#helptags()
 
 """"""""""""""""""""""""""""""
 " => Load bundle paths
 "   解决自动搜索及下载插件
 """"""""""""""""""""""""""""""
-set rtp+="/root/redgovimrc/bundle/Vundle.vim"
+let vundle_vim_path = root_path . '/bundle/Vundle.vim'
+set rtp+=vundle_vim_path
 call vundle#rc()
 Bundle 'gmarik/vundle'
 
