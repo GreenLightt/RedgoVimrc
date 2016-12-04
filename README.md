@@ -1,5 +1,5 @@
 # How to use
 ```
-    git clone git@github.com:GreenLightt/RedgoVimrc.git  ~/RedgoVimrc
-    sh ~/RedgoVimrc/install.sh
+    git clone git@github.com:GreenLightt/RedgoVimrc.git  ~/redgovimrc
+    sh ~/redgovimrc/install.sh
 ```
