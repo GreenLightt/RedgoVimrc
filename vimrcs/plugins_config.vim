@@ -99,8 +99,8 @@ au BufNewFile,BufRead *.mustache set ft=mustache
 " nerdtree树形目录
 """"""""""""""""""""""""""""""
 "Bundle 'scrooloose/nerdtree'
-"
+
 """"""""""""""""""""""""""""""
-" Taglist
+" TagList
 """"""""""""""""""""""""""""""
 Bundle 'vim-scripts/taglist.vim'
