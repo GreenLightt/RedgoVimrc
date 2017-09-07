@@ -104,3 +104,8 @@ au BufNewFile,BufRead *.mustache set ft=mustache
 " TagList
 """"""""""""""""""""""""""""""
 Bundle 'vim-scripts/taglist.vim'
+
+""""""""""""""""""""""""""""""
+" WakaTime
+""""""""""""""""""""""""""""""
+Bundle 'wakatime/vim-wakatime'
