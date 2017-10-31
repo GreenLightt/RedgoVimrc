@@ -106,6 +106,12 @@ au BufNewFile,BufRead *.mustache set ft=mustache
 Bundle 'vim-scripts/taglist.vim'
 
 """"""""""""""""""""""""""""""
-" WakaTime
+" WakaTime 时间记录软件
 """"""""""""""""""""""""""""""
-Bundle 'wakatime/vim-wakatime'
+"Bundle 'wakatime/vim-wakatime'
+
+""""""""""""""""""""""""""""""
+" YouCompleteMe 自动补全插件
+""""""""""""""""""""""""""""""
+Bundle 'Valloric/YouCompleteMe'
+
